@@ -1,3 +1,11 @@
+/* Copyright (C) 2021 Bill Rubin
+ * Contact: rubin@contractor.net
+ *
+ * This program is licensed under the MIT license, a copy of which
+ * has been provided with this program. You can also find the MIT
+ * license at https://OpenSource.org/licenses/MIT
+ */
+
 #include "FactorAlgorithm.h"
 
 DEBUG_TASKS(std::time_t now() {return  std::chrono::system_clock::to_time_t(std::chrono::system_clock::now())%100;})
